@@ -21,11 +21,13 @@ header {
   justify-content: space-between;
   padding-inline: 1rem;
   padding-top: 2rem;
+  padding-bottom: 4rem;
 }
 
-header,
-.section__1 {
+.head__section {
   background-color: #24053e;
+  padding-bottom: 9.79rem;
+  margin-bottom: 5.34rem;
 }
 
 header .cta__txt {
@@ -35,6 +37,68 @@ header .cta__txt {
   font-style: normal;
   font-weight: 700;
   line-height: 2rem;
-  letter-spacing: -0.01rem;
+  letter-spacing: 0.01rem;
   text-decoration: underline;
+  text-underline-offset: 0.8rem;
+  text-decoration-color: #44ffa1;
+  text-decoration-thickness: 0.19rem;
+}
+
+.section__1 h1 {
+  max-width: 21.4375rem;
+  width: 100%;
+  margin-inline: auto;
+  color: white;
+  text-align: center;
+  font-family: "Fraunces";
+  font-size: 3.125rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 3.125rem;
+  padding-bottom: 2.5rem;
+}
+
+.section__1 button {
+  display: block;
+  max-width: 8.3125rem;
+  width: 100%;
+  margin-inline: auto;
+  background-color: #44ffa1;
+  border: none;
+  outline: none;
+  color: #24053e;
+  text-align: center;
+  font-family: "Manrope", sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2rem;
+  letter-spacing: -0.01rem;
+  padding-top: 0.69rem;
+  padding-bottom: 0.75rem;
+}
+
+.phone__mockup {
+  max-width: 20rem;
+  margin-inline: auto;
+  margin-top: -12rem;
+}
+
+.phone__mockup img {
+  width: 100%;
+}
+
+.grouped__section .no {
+  color: #24053e;
+  font-family: "Fraunces 144pt";
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 2.25rem;
+  max-width: 2.5rem;
+  width: 100%;
+  margin-inline: auto;
+  text-align: center;
+  border-radius: 100%;
+  border: 1px solid #584d62;
 }
