@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* font-family: "Fraunces", serif; */
+/* font-family: "Manrope", sans-serif; */
+
+.header__logo {
+  max-width: 5.98513rem;
+}
+
+.header__logo img {
+  width: 100%;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 1rem;
+  padding-top: 2rem;
+}
+
+header,
+.section__1 {
+  background-color: #24053e;
+}
+
+header .cta__txt {
+  color: white;
+  font-family: "Manrope", sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2rem;
+  letter-spacing: -0.01rem;
+  text-decoration: underline;
+}
