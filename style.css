@@ -115,7 +115,7 @@ header .cta__txt {
 }
 
 .section__2 {
-    background-color: #FCF8FF;
+  background-color: #fcf8ff;
 }
 
 .grouped__section {
@@ -171,24 +171,37 @@ header .cta__txt {
   margin-bottom: 2.5rem;
 }
 
-.curved__section__2{
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
+.curved__section__2 {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
 }
 
 .curved__section__2 svg {
-    position: relative;
-    display: block;
-    width: calc(300% + 1.3px);
-    height: 100px;
+  position: relative;
+  display: block;
+  width: calc(300% + 1.3px);
+  height: 100px;
 }
 
 .curved__section__2 .shape-fill {
-    fill: #FCF8FF;
+  fill: #fcf8ff;
 }
 
+.founder__img {
+  max-width: 17.5625rem;
+  margin-inline: auto;
+  margin-top: 9rem;
+}
 
+.founder__img img {
+  width: 100%;
+}
+
+.founder__summary {
+  background-color: #24053E;
+  border: 1px solid black;
+}
