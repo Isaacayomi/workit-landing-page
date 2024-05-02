@@ -26,8 +26,9 @@ header {
 
 .head__section {
   background-color: #24053e;
-  padding-bottom: 9.79rem;
-  margin-bottom: 5.34rem;
+  padding-bottom: 7.5rem;
+  /* margin-bottom: 5.34rem; */
+  position: relative;
 }
 
 header .cta__txt {
@@ -42,6 +43,26 @@ header .cta__txt {
   text-underline-offset: 0.8rem;
   text-decoration-color: #44ffa1;
   text-decoration-thickness: 0.19rem;
+}
+
+.curved__section {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  z-index: 1;
+}
+
+.curved__section svg {
+  display: block;
+  width: calc(300% + 1.3px);
+  height: 100px;
+}
+
+.curved__section .shape-fill {
+  fill: #24053e;
 }
 
 .section__1 h1 {
@@ -79,26 +100,95 @@ header .cta__txt {
 }
 
 .phone__mockup {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
   max-width: 20rem;
   margin-inline: auto;
-  margin-top: -12rem;
+  margin-top: 24rem;
 }
 
 .phone__mockup img {
   width: 100%;
 }
 
+.section__2 {
+    background-color: #FCF8FF;
+}
+
+.grouped__section {
+  padding-top: 11rem;
+  padding-bottom: 0.1rem;
+  position: relative;
+}
+
 .grouped__section .no {
   color: #24053e;
-  font-family: "Fraunces 144pt";
+  text-align: center;
+  font-family: "Fraunces";
   font-size: 1.25rem;
   font-style: normal;
   font-weight: 600;
   line-height: 2.25rem;
-  max-width: 2.5rem;
+  border-radius: 1.90625rem;
+  border: 1px solid #584d62;
+  text-align: center;
+  max-width: 3rem;
+  width: 100%;
+  margin-inline: auto;
+  padding-block: 0.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.group__summary h2 {
+  color: #24053e;
+  text-align: center;
+  font-family: "Fraunces 144pt";
+  font-size: 1.75rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 2.25rem;
+  max-width: 21.4375rem;
   width: 100%;
   margin-inline: auto;
   text-align: center;
-  border-radius: 100%;
-  border: 1px solid #584d62;
+  padding-bottom: 1rem;
 }
+
+.group__summary p {
+  color: #584d62;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.75rem;
+  max-width: 21.4375rem;
+  width: 100%;
+  margin-inline: auto;
+  margin-bottom: 2.5rem;
+}
+
+.curved__section__2{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.curved__section__2 svg {
+    position: relative;
+    display: block;
+    width: calc(300% + 1.3px);
+    height: 100px;
+}
+
+.curved__section__2 .shape-fill {
+    fill: #FCF8FF;
+}
+
+
