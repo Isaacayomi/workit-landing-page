@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+a {
+  color: #584d62;
+}
+
 .header__logo {
   max-width: 5.98513rem;
 }
@@ -12,6 +16,9 @@
   width: 100%;
 }
 
+.header__logo img:hover {
+  cursor: pointer;
+}
 header {
   display: flex;
   align-items: center;
@@ -100,6 +107,7 @@ header .cta__txt {
   letter-spacing: -0.01rem;
   padding-top: 0.69rem;
   padding-bottom: 0.75rem;
+  transition: 0.1s linear;
 }
 
 .phone__mockup {
@@ -305,6 +313,15 @@ footer {
   display: none;
 }
 
+ion-icon {
+  transition: 0.1s linear;
+}
+
+ion-icon:hover {
+  cursor: pointer;
+  color: #24053e;
+}
+
 @media screen and (min-width: 500px) {
   .founder__summary {
     max-width: 25.4375rem;
@@ -373,6 +390,7 @@ footer {
     background-color: #24053e;
     color: #44ffa1;
     font-weight: normal;
+    cursor: pointer;
   }
 
   .phone__mockup {
@@ -453,8 +471,17 @@ footer {
     margin-left: 3.5rem;
   }
 
-  .btn {
-    padding-bottom: 3.5rem;
+  .btn button {
+    margin-bottom: 3.5rem;
+    transition: 0.1s linear;
+  }
+
+  .btn button:hover {
+    border: 1px solid #44ffa1;
+    background-color: #24053e;
+    color: #44ffa1;
+    font-weight: normal;
+    cursor: pointer;
   }
 
   .spiral__3 {
@@ -467,5 +494,144 @@ footer {
 
   footer {
     margin-top: 27rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .head__section header {
+    padding-inline: 3.5rem;
+  }
+
+  .section__1 h1 {
+    max-width: 39.6875rem;
+    width: 100%;
+    font-size: 5rem;
+    line-height: 5rem;
+    font-weight: 600;
+    font-style: normal;
+    padding-bottom: 2.31rem;
+  }
+
+  .section__1 button {
+    max-width: 10.0625rem;
+    width: 100%;
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 2rem;
+  }
+
+  .section__2 .phone__mockup {
+    max-width: 44.6875rem;
+    width: 100%;
+    top: 7%;
+  }
+
+  .phone__mockup img {
+    width: 100%;
+  }
+
+  .grouped__section {
+    padding-top: 23rem;
+    max-width: 69.625rem;
+    width: 100%;
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 1.62rem;
+    flex-wrap: wrap;
+    padding-bottom: 10.69rem;
+  }
+
+  .group {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .group__summary h2 {
+    max-width: 22.125rem;
+    width: 100%;
+    margin-inline: auto;
+    text-align: center;
+    font-size: 2rem;
+    padding-top: -5rem;
+  }
+
+  .group__summary p {
+    max-width: 22.125rem;
+    width: 100%;
+    margin-inline: auto;
+    text-align: center;
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: #24053e;
+  }
+
+  .founder__img {
+    margin-left: 8rem;
+  }
+
+  .founder__summary {
+    left: 18%;
+    top: 52%;
+  }
+
+  .social__icons {
+    gap: 1.7rem;
+    margin-top: 1rem;
+  }
+
+  .btn {
+    max-width: 11.875rem;
+    width: 100%;
+    font-size: 1.125rem;
+    line-height: 2rem;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .founder__img {
+    margin-top: 6.88rem;
+    max-width: 29.8125rem;
+    width: 100%;
+    margin-left: 10.18rem;
+  }
+
+  .founder__summary {
+    max-width: 45.625rem;
+    width: 100%;
+    left: 26%;
+    top: 48%;
+  }
+
+  .founder__summary h2 {
+    max-width: 33rem;
+    width: 100%;
+    margin: 0;
+    font-size: 3.5rem;
+    padding-top: 4rem;
+    padding-left: 4.03rem;
+    padding-bottom: 2rem;
+  }
+
+  .founder__summary p {
+    max-width: 37.625rem;
+    width: 100%;
+    font-size: 1.125rem;
+    line-height: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  footer {
+    margin-top: 18rem;
+  }
+}
+
+@media screen and (min-width: 1441px) {
+  section {
+    max-width: 1441px;
+    width: 100%;
+    margin-inline: auto;
   }
 }
