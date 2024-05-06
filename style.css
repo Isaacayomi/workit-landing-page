@@ -483,6 +483,7 @@ ion-icon:hover {
 
   .btn button {
     margin-bottom: 3.5rem;
+    border: 1px solid #44ffa1;
     transition: 0.4s ease-in-out;
   }
 
@@ -520,6 +521,7 @@ ion-icon:hover {
     font-size: 1.125rem;
     font-weight: 700;
     line-height: 2rem;
+    border: 1px solid #44ffa1;
   }
 
   .section__2 .phone__mockup {
